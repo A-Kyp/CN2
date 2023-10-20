@@ -1,0 +1,884 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7227CA00BA6C497A",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../lab1_mux.gen/sources_1/bd/mux",
+      "name": "mux",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "nand_3_in_0": "",
+      "nand_3_in_1": "",
+      "nand_3_in_2": "",
+      "nand_3_in_3": "",
+      "nand_4_in_0": "",
+      "nand_2_in_0": "",
+      "nand_2_in_1": ""
+    },
+    "ports": {
+      "C": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "B": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "A": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "D": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "Res": {
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "s2": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "s1": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "nand_3_in_0": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "Op2_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Res_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op2_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "nand_3_in_inst_0",
+        "architecture": "artix7",
+        "variant_info": {
+          "nand_3_in.bd": {
+            "scoped_diagram": "nand_3_in_inst_0.bd",
+            "design_checksum": "0x576BC943",
+            "ref_name": "nand_3_in",
+            "ref_subinst_path": "mux_nand_3_in_0",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "nand_3_in_1": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "Op2_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Res_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op2_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "nand_3_in_inst_1",
+        "architecture": "artix7",
+        "variant_info": {
+          "nand_3_in.bd": {
+            "scoped_diagram": "nand_3_in_inst_1.bd",
+            "design_checksum": "0x576BC943",
+            "ref_name": "nand_3_in",
+            "ref_subinst_path": "muxnand_3_in_1",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "nand_3_in_2": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "Op2_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Res_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op2_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "nand_3_in_inst_2",
+        "architecture": "artix7",
+        "variant_info": {
+          "nand_3_in.bd": {
+            "scoped_diagram": "nand_3_in_inst_2.bd",
+            "design_checksum": "0x576BC943",
+            "ref_name": "nand_3_in",
+            "ref_subinst_path": "muxnand_3_in_2",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "nand_3_in_3": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "nand_3_in.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "Op2_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Res_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op2_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "nand_3_in_inst_3",
+        "architecture": "artix7",
+        "variant_info": {
+          "nand_3_in.bd": {
+            "scoped_diagram": "nand_3_in_inst_3.bd",
+            "design_checksum": "0x576BC943",
+            "ref_name": "nand_3_in",
+            "ref_subinst_path": "muxnand_3_in_3",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "nand_4_in_0": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "nand_4_in.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "nand_4_in.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "nand_4_in.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "nand_4_in.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "Op1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op2_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op1_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op2_1": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Res_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "nand_4_in_inst_0",
+        "architecture": "artix7",
+        "variant_info": {
+          "nand_4_in.bd": {
+            "scoped_diagram": "nand_4_in_inst_0.bd",
+            "design_checksum": "0xC6C2A03D",
+            "ref_name": "nand_4_in",
+            "ref_subinst_path": "mux_nand_4_in_0",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "nand_2_in_0": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "nand_2_in.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "nand_2_in.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "nand_2_in.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "nand_2_in.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "Op1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op2_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Res_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "nand_2_in_inst_0",
+        "architecture": "artix7",
+        "variant_info": {
+          "nand_2_in.bd": {
+            "scoped_diagram": "nand_2_in_inst_0.bd",
+            "design_checksum": "0xAA84BA8C",
+            "ref_name": "nand_2_in",
+            "ref_subinst_path": "mux_nand_2_in_0",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      },
+      "nand_2_in_1": {
+        "parameters": {
+          "ACTIVE_SIM_BD": {
+            "value": "nand_2_in.bd"
+          },
+          "ACTIVE_SYNTH_BD": {
+            "value": "nand_2_in.bd"
+          },
+          "ENABLE_DFX": {
+            "value": "0"
+          },
+          "LIST_SIM_BD": {
+            "value": "nand_2_in.bd"
+          },
+          "LIST_SYNTH_BD": {
+            "value": "nand_2_in.bd"
+          },
+          "LOCK_PROPAGATE": {
+            "value": "0"
+          }
+        },
+        "ports": {
+          "Op1_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Op2_0": {
+            "direction": "I",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Res_0": {
+            "direction": "O",
+            "left": "0",
+            "right": "0",
+            "parameters": {
+              "PortType": {
+                "value": "undef",
+                "value_src": "ip_prop"
+              },
+              "PortType.PROP_SRC": {
+                "value": "false",
+                "value_src": "ip_prop"
+              }
+            }
+          }
+        },
+        "post_compiled_compname": "nand_2_in_inst_1",
+        "architecture": "artix7",
+        "variant_info": {
+          "nand_2_in.bd": {
+            "scoped_diagram": "nand_2_in_inst_1.bd",
+            "design_checksum": "0xAA84BA8C",
+            "ref_name": "nand_2_in",
+            "ref_subinst_path": "muxnand_2_in_1",
+            "ref_type": "Block Design",
+            "source_type": "all",
+            "active": "all"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Op1_0_0_1": {
+        "ports": [
+          "s2",
+          "nand_2_in_0/Op1_0",
+          "nand_2_in_0/Op2_0",
+          "nand_3_in_3/Op1_0",
+          "nand_3_in_2/Op2_1"
+        ]
+      },
+      "Op1_0_1_1": {
+        "ports": [
+          "s1",
+          "nand_2_in_1/Op1_0",
+          "nand_2_in_1/Op2_0",
+          "nand_3_in_3/Op2_1",
+          "nand_3_in_1/Op2_1"
+        ]
+      },
+      "Op2_0_0_1": {
+        "ports": [
+          "C",
+          "nand_3_in_2/Op2_0"
+        ]
+      },
+      "Op2_0_1_1": {
+        "ports": [
+          "B",
+          "nand_3_in_1/Op2_0"
+        ]
+      },
+      "Op2_0_2_1": {
+        "ports": [
+          "A",
+          "nand_3_in_0/Op2_0"
+        ]
+      },
+      "Op2_0_3_1": {
+        "ports": [
+          "D",
+          "nand_3_in_3/Op2_0"
+        ]
+      },
+      "nand_2_in_0_Res_0": {
+        "ports": [
+          "nand_2_in_0/Res_0",
+          "nand_3_in_0/Op1_0",
+          "nand_3_in_1/Op1_0"
+        ]
+      },
+      "nand_2_in_1_Res_0": {
+        "ports": [
+          "nand_2_in_1/Res_0",
+          "nand_3_in_0/Op2_1",
+          "nand_3_in_2/Op1_0"
+        ]
+      },
+      "nand_3_in_0_Res_0": {
+        "ports": [
+          "nand_3_in_0/Res_0",
+          "nand_4_in_0/Op1_0"
+        ]
+      },
+      "nand_3_in_1_Res_0": {
+        "ports": [
+          "nand_3_in_1/Res_0",
+          "nand_4_in_0/Op2_0"
+        ]
+      },
+      "nand_3_in_2_Res_0": {
+        "ports": [
+          "nand_3_in_2/Res_0",
+          "nand_4_in_0/Op1_1"
+        ]
+      },
+      "nand_3_in_3_Res_0": {
+        "ports": [
+          "nand_3_in_3/Res_0",
+          "nand_4_in_0/Op2_1"
+        ]
+      },
+      "nand_4_in_0_Res_0": {
+        "ports": [
+          "nand_4_in_0/Res_0",
+          "Res"
+        ]
+      }
+    }
+  }
+}
