@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Jan 10 19:43:12 2023
+# Process ID: 13540
+# Current directory: E:/CN2/Lucrare 1/Lab1_automat
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22008 E:\CN2\Lucrare 1\Lab1_automat\Lab1_automat.xpr
+# Log file: E:/CN2/Lucrare 1/Lab1_automat/vivado.log
+# Journal file: E:/CN2/Lucrare 1/Lab1_automat\vivado.jou
+# Running On: DESKTOP-E0LG27J, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 68076 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/CN2/Lucrare 1/Lab1_automat/Lab1_automat.xpr}
+update_compile_order -fileset sources_1
